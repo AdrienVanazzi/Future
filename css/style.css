@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis|Lobster&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body{
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+}
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 90px;
+	font-weight: bold;
+}
+
+h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.text-center{
+	text-align: center;
+}
